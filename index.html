@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chemistry Quick Reference</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; background: #f8fafc; color: #222; margin: 0; padding: 0; }
+    .container { max-width: 700px; margin: 20px auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 16px #0001; padding: 24px; }
+    h1 { text-align: center; font-size: 2.2rem; margin-bottom: 1.2rem; }
+    .section { margin-bottom: 18px; }
+    .collapsible { background: #e5e7eb; color: #222; cursor: pointer; padding: 14px 20px; width: 100%; border: none; outline: none; text-align: left; font-size: 1.1rem; border-radius: 10px; transition: background 0.2s; margin-bottom: 5px; }
+    .active, .collapsible:hover { background: #dbeafe; }
+    .content { padding: 0 18px; max-height: 0; overflow: hidden; background: #f1f5f9; border-radius: 0 0 10px 10px; transition: max-height 0.3s ease; }
+    ul, ol { margin-top: 6px; }
+    code, .mono { font-family: "Consolas", monospace; background: #f3f4f6; padding: 2px 5px; border-radius: 4px; }
+    @media (max-width: 600px) {
+      .container { padding: 10px; }
+      h1 { font-size: 1.4rem; }
+      .collapsible { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>🧪 Chemistry Quick Reference</h1>
+
+  <button class="collapsible">Constants</button>
+  <div class="content">
+    <ul>
+      <li>Avogadro’s Number: <span class="mono">6.022 × 10²³</span> particles/mol</li>
+      <li>Gas Constant R: <span class="mono">0.0821</span> L·atm/(mol·K)</li>
+      <li>Standard Temp & Pressure: <span class="mono">0°C</span> (273 K), 1 atm</li>
+      <li>1 mol gas @ STP: <span class="mono">22.4 L</span></li>
+      <li>Faraday’s Constant: <span class="mono">96,485</span> C/mol e⁻</li>
+      <li>Density: <span class="mono">d = m/V</span></li>
+    </ul>
+  </div>
+
+  <button class="collapsible">Key Formulas</button>
+  <div class="content">
+    <ul>
+      <li>Moles: <span class="mono">moles = mass (g) / molar mass (g/mol)</span></li>
+      <li>Percent Composition: <span class="mono">% = (part/whole) × 100</span></li>
+      <li>Molarity: <span class="mono">M = mol solute / L solution</span></li>
+      <li>Molality: <span class="mono">m = mol solute / kg solvent</span></li>
+      <li>Dilution: <span class="mono">M₁V₁ = M₂V₂</span></li>
+      <li>Gas Laws: <span class="mono">PV = nRT</span>, <span class="mono">P₁V₁/T₁ = P₂V₂/T₂</span></li>
+      <li>Percent Yield: <span class="mono">% yield = (actual/theoretical) × 100</span></li>
+      <li>Boiling Point Elevation: <span class="mono">ΔT<sub>b</sub> = iK<sub>b</sub>m</span></li>
+      <li>Freezing Point Depression: <span class="mono">ΔT<sub>f</sub> = iK<sub>f</sub>m</span></li>
+      <li>pH: <span class="mono">pH = –log[H⁺]</span></li>
+    </ul>
+  </div>
+
+  <button class="collapsible">Polyatomic Ions</button>
+  <div class="content">
+    <ul>
+      <li>Ammonium <span class="mono">NH₄⁺</span></li>
+      <li>Nitrate <span class="mono">NO₃⁻</span></li>
+      <li>Sulfate <span class="mono">SO₄²⁻</span></li>
+      <li>Carbonate <span class="mono">CO₃²⁻</span></li>
+      <li>Phosphate <span class="mono">PO₄³⁻</span></li>
+      <li>Hydroxide <span class="mono">OH⁻</span></li>
+      <li>Acetate <span class="mono">C₂H₃O₂⁻</span></li>
+      <li>Permanganate <span class="mono">MnO₄⁻</span></li>
+      <li>Dichromate <span class="mono">Cr₂O₇²⁻</span></li>
+    </ul>
+  </div>
+
+  <button class="collapsible">Reaction Types</button>
+  <div class="content">
+    <ul>
+      <li><strong>Synthesis:</strong> A + B → AB</li>
+      <li><strong>Decomposition:</strong> AB → A + B</li>
+      <li><strong>Single Replacement:</strong> A + BC → AC + B</li>
+      <li><strong>Double Replacement:</strong> AB + CD → AD + CB</li>
+      <li><strong>Combustion:</strong> Hydrocarbon + O₂ → CO₂ + H₂O</li>
+    </ul>
+  </div>
+
+  <button class="collapsible">Periodic Trends</button>
+  <div class="content">
+    <ul>
+      <li>Atomic radius: ↓ down, ← left</li>
+      <li>Ionization energy: ↑ up, → right</li>
+      <li>Electronegativity: ↑ up, → right</li>
+    </ul>
+  </div>
+
+  <button class="collapsible">Acids & Bases</button>
+  <div class="content">
+    <ul>
+      <li>Acid: H⁺ donor</li>
+      <li>Base: H⁺ acceptor</li>
+      <li>pH + pOH = 14 at 25°C</li>
+      <li>K<sub>w</sub> = 1 × 10⁻¹⁴</li>
+    </ul>
+  </div>
+
+  <button class="collapsible">Quick Definitions</button>
+  <div class="content">
+    <ul>
+      <li><strong>Solute:</strong> Substance dissolved</li>
+      <li><strong>Solvent:</strong> Does the dissolving</li>
+      <li><strong>Spectator ion:</strong> Not involved in net ionic eqn</li>
+      <li><strong>Precipitate:</strong> Insoluble solid formed</li>
+      <li><strong>Limiting reactant:</strong> Used up first in a reaction</li>
+      <li><strong>Empirical formula:</strong> Smallest whole # ratio</li>
+      <li><strong>Le Chatelier's Principle:</strong> System shifts to counter changes</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  // Collapsible
+  const coll = document.querySelectorAll(".collapsible");
+  coll.forEach(btn => {
+    btn.addEventListener("click", function () {
+      this.classList.toggle("active");
+      let content = this.nextElementSibling;
+      if (content.style.maxHeight) {
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  });
+</script>
+</body>
+</html>
