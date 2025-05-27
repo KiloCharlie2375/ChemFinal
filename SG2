@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chemistry Pre-AP Final Reference</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; padding:0; font-family:Segoe UI, Arial, sans-serif; background: #f8fafc; color:#222;}
+    .main-container { display:flex; max-width:1200px; margin:0 auto; min-height:100vh;}
+    nav { background: #222; color:#fff; min-width:200px; padding:24px 0; }
+    nav h2 { text-align:center; font-size:1.2rem; margin-bottom:18px; letter-spacing:1px;}
+    nav ul { list-style:none; padding:0; margin:0;}
+    nav ul li { margin:10px 0;}
+    nav ul li a { color: #cbd5e1; text-decoration:none; padding:8px 18px; display:block; border-radius:8px; transition:.2s;}
+    nav ul li a:hover { background: #1e293b; color: #fff;}
+    .content { flex:1; padding:40px 30px 30px 30px;}
+    .chapter { margin-bottom:38px;}
+    .chapter h2 { font-size:1.4rem; margin-bottom:12px; color: #2563eb;}
+    .collapsible { background:#e0e7ef; color:#111; cursor:pointer; padding:13px 24px; width:100%; border:none; outline:none; text-align:left; font-size:1.1rem; border-radius:8px; margin-bottom:5px; font-weight:600;}
+    .active, .collapsible:hover { background: #bfdbfe;}
+    .chapter-content { padding:10px 22px; max-height:0; overflow:hidden; background:#f1f5f9; border-radius:0 0 10px 10px; transition:max-height 0.35s;}
+    ul,ol { margin:9px 0 9px 16px;}
+    code,.mono { font-family:Consolas,monospace; background:#f3f4f6; padding:2px 5px; border-radius:4px;}
+    .searchbox { margin-bottom:30px; width:100%; }
+    .searchbox input { width:100%; padding:12px; font-size:1rem; border-radius:8px; border:1px solid #ccc;}
+    @media (max-width:900px) {
+      .main-container { flex-direction:column;}
+      nav { min-width:0; width:100%; padding:12px 0;}
+      .content { padding:22px 7vw;}
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <nav>
+      <h2>Chemistry Index</h2>
+      <ul>
+        <li><a href="#constants">Reference & Constants</a></li>
+        <li><a href="#nomenclature">Nomenclature & Polyatomics</a></li>
+        <li><a href="#bonding">Bonding & Structures</a></li>
+        <li><a href="#solutions">Solutions & Molarity</a></li>
+        <li><a href="#formulas">Empirical/Molecular Formula</a></li>
+        <li><a href="#gases">Gas Laws & Molar Volume</a></li>
+        <li><a href="#stoich">Stoichiometry & Yield</a></li>
+        <li><a href="#periodic">Periodic Trends & Table</a></li>
+        <li><a href="#acids">Acids, Bases, Equilibrium</a></li>
+        <li><a href="#colligative">Colligative Properties</a></li>
+        <li><a href="#redox">Redox & Oxidation</a></li>
+        <li><a href="#review">Comprehensive Review</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <div class="searchbox">
+        <input type="text" id="searchInput" placeholder="Type to filter topics or formulas...">
+      </div>
+      <!-- Reference & Constants -->
+      <div class="chapter" id="constants">
+        <h2>Reference & Constants</h2>
+        <button class="collapsible">Quick Reference</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Avogadro’s Number:</b> <code>6.022 × 10²³</code> particles/mol</li>
+            <li><b>Gas Constant (R):</b> <code>0.0821</code> L·atm/(mol·K)</li>
+            <li><b>STP:</b> 0°C (273K), 1 atm, 1 mol gas = 22.4 L</li>
+            <li><b>Density:</b> <code>d = m/V</code></li>
+            <li><b>Faraday’s Constant:</b> 96,485 C/mol e⁻</li>
+            <li><b>pH:</b> <code>pH = –log[H⁺]</code></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Nomenclature & Polyatomics -->
+      <div class="chapter" id="nomenclature">
+        <h2>Nomenclature & Polyatomic Ions</h2>
+        <button class="collapsible">Key Rules & Examples</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Ionic compounds:</b> Metal + nonmetal, e.g., <code>NaCl</code> = Sodium chloride</li>
+            <li><b>Covalent compounds:</b> Use prefixes, e.g., <code>CO₂</code> = Carbon dioxide</li>
+            <li><b>Common Polyatomic Ions:</b>
+              <ul>
+                <li><code>NO₃⁻</code> Nitrate, <code>SO₄²⁻</code> Sulfate, <code>NH₄⁺</code> Ammonium, <code>CO₃²⁻</code> Carbonate</li>
+              </ul>
+            </li>
+          </ul>
+          <b>Challenge Q:</b> What is the name of <code>Fe(NO₃)₂</code>? <b>A:</b> Iron(II) nitrate
+        </div>
+      </div>
+
+      <!-- Bonding & Structures -->
+      <div class="chapter" id="bonding">
+        <h2>Bonding & Structures</h2>
+        <button class="collapsible">Summary & Examples</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Ionic Bond:</b> Transfer of electrons (NaCl)</li>
+            <li><b>Covalent Bond:</b> Sharing electrons (H₂O)</li>
+            <li><b>Lewis Structure Example (NO₃⁻):</b> N central, 3 O, one double bond, resonance</li>
+          </ul>
+          <b>Q:</b> Draw the Lewis structure for <code>CO₃²⁻</code>.  
+        </div>
+      </div>
+
+      <!-- Solutions & Molarity -->
+      <div class="chapter" id="solutions">
+        <h2>Solutions & Molarity</h2>
+        <button class="collapsible">Formulas & Problems</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Molarity:</b> <code>M = mol/L</code></li>
+            <li><b>Molality:</b> <code>m = mol/kg</code></li>
+            <li><b>Dilution:</b> <code>M₁V₁ = M₂V₂</code></li>
+            <li><b>Percent by mass:</b> <code>(g solute/g solution) × 100</code></li>
+          </ul>
+          <b>Challenge:</b> How many mL of 6M HCl to make 250 mL of 1M HCl? <br>
+          <b>Solution:</b> <code>V₁ = (1)(0.25)/(6) = 0.0417 L = 41.7 mL</code>
+        </div>
+      </div>
+
+      <!-- Empirical/Molecular Formula -->
+      <div class="chapter" id="formulas">
+        <h2>Empirical/Molecular Formula</h2>
+        <button class="collapsible">Review & Problems</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Empirical Formula:</b> Simplest whole number ratio</li>
+            <li><b>Molecular Formula:</b> (Empirical) × n</li>
+            <li><b>Ex:</b> 40% C, 6.7% H, 53.3% O ⇒ CH₂O</li>
+          </ul>
+          <b>Practice:</b> What is the empirical formula if 29% Na, 40.6% S, 30.4% O?  
+        </div>
+      </div>
+
+      <!-- Gas Laws & Molar Volume -->
+      <div class="chapter" id="gases">
+        <h2>Gas Laws & Molar Volume</h2>
+        <button class="collapsible">Quick Sheet</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Boyle’s Law:</b> <code>P₁V₁ = P₂V₂</code></li>
+            <li><b>Charles’ Law:</b> <code>V₁/T₁ = V₂/T₂</code></li>
+            <li><b>Ideal Gas Law:</b> <code>PV = nRT</code></li>
+            <li><b>STP:</b> 1 mol = 22.4 L at 273K, 1 atm</li>
+          </ul>
+          <b>Q:</b> Find the volume of 2 mol O₂ at 27°C, 2 atm. <b>A:</b> 24.6 L
+        </div>
+      </div>
+
+      <!-- Stoichiometry & Yield -->
+      <div class="chapter" id="stoich">
+        <h2>Stoichiometry & Yield</h2>
+        <button class="collapsible">Step-by-Step</button>
+        <div class="chapter-content">
+          <ul>
+            <li>Use mole ratios from balanced equations.</li>
+            <li><b>Percent Yield:</b> <code>(actual/theoretical) × 100</code></li>
+            <li><b>Limiting Reactant:</b> Smaller calculated product = limiting.</li>
+          </ul>
+          <b>Problem:</b> 10g H₂ + 80g O₂ → H₂O. What’s limiting? % yield if 70g H₂O formed?<br>
+          <b>Answer:</b> O₂ limiting. % yield = 77.8%
+        </div>
+      </div>
+
+      <!-- Periodic Trends & Table -->
+      <div class="chapter" id="periodic">
+        <h2>Periodic Trends & Table</h2>
+        <button class="collapsible">Trends & Practice</button>
+        <div class="chapter-content">
+          <ul>
+            <li>Atomic radius ↓ left and down.</li>
+            <li>Ionization energy, electronegativity ↑ up and right.</li>
+            <li><b>Q:</b> Which has the highest ionization energy: Li, Be, B, or C? <b>A:</b> C</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Acids, Bases, Equilibrium -->
+      <div class="chapter" id="acids">
+        <h2>Acids, Bases, Equilibrium</h2>
+        <button class="collapsible">Formulas & Tips</button>
+        <div class="chapter-content">
+          <ul>
+            <li><b>Acids:</b> H⁺ donors. <b>Bases:</b> H⁺ acceptors.</li>
+            <li><b>pH = –log[H⁺]</b>; <b>pOH = –log[OH⁻]</b>; <b>pH + pOH = 14</b></li>
+            <li><b>K_w = 1 × 10⁻¹⁴</b></li>
+            <li><b>Equilibrium:</b> K = [products]/[reactants]</li>
+            <li><b>Le Chatelier’s Principle:</b> System shifts to minimize stress</li>
+          </ul>
+          <b>Example:</b> If you increase [H₂] in N₂ + 3H₂ ⇌ 2NH₃, which way does equilibrium shift?<br>
+          <b>Answer:</b> Right (toward NH₃).
+        </div>
+      </div>
+
+      <!-- Colligative Properties -->
+      <div class="chapter" id="colligative">
+        <h2>Colligative Properties</h2>
+        <button class="collapsible">Essentials</button>
+        <div class="chapter-content">
+          <ul>
+            <li>Boiling point elevation: <code>ΔT_b = iK_b m</code></li>
+            <li>Freezing point depression: <code>ΔT_f = iK_f m</code></li>
+            <li>i = # of particles; NaCl → 2, CaCl₂ → 3</li>
+          </ul>
+          <b>Challenge:</b> Which has the greatest freezing point depression: 1m NaCl, 1m glucose, 1m CaCl₂? <b>Answer:</b> 1m CaCl₂
+        </div>
+      </div>
+
+      <!-- Redox & Oxidation -->
+      <div class="chapter" id="redox">
+        <h2>Redox & Oxidation Numbers</h2>
+        <button class="collapsible">Rules & Practice</button>
+        <div class="chapter-content">
+          <ul>
+            <li>Oxidation = loss of e⁻; Reduction = gain of e⁻</li>
+            <li>Elemental state = 0</li>
+            <li>Oxygen = –2 (except peroxides)</li>
+            <li>Hydrogen = +1 (–1 w/metals)</li>
+          </ul>
+          <b>Example:</b> Assign oxidation numbers in MnO₄⁻. <b>Answer:</b> Mn = +7, O = –2 each.
+        </div>
+      </div>
+
+      <!-- Comprehensive Review -->
+      <div class="chapter" id="review">
+        <h2>Comprehensive Review & Exam Practice</h2>
+        <button class="collapsible">Hard Problems & Strategies</button>
+        <div class="chapter-content">
+          <ol>
+            <li>
+              <b>Stoichiometry Challenge:</b><br>
+              A 10.0 g sample of CaCl₂ is added to 15.0 g Na₃PO₄. What mass of Ca₃(PO₄)₂ can be formed?
+              <details><summary>Solution</summary>
+                <div>
+                  CaCl₂: 10/111 = 0.0901 mol<br>
+                  Na₃PO₄: 15/164 = 0.0915 mol<br>
+                  3:1 ratio, so CaCl₂ limits: 0.0901/3 = 0.0300 mol<br>
+                  Ca₃(PO₄)₂: 0.0300 × 310 = <b>9.3 g</b>
+                </div>
+              </details>
+            </li>
+            <li>
+              <b>Gas Law Application:</b><br>
+              2.0 L of H₂ at 2 atm and 300K, what is the number of moles?
+              <details><summary>Solution</summary>
+                <div>
+                  PV = nRT → n = PV/RT = (2×2)/(0.0821×300) ≈ 0.16 mol
+                </div>
+              </details>
+            </li>
+            <li>
+              <b>Net Ionic Equation:</b>  
+              Write the net ionic equation for: AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)<br>
+              <details><summary>Answer</summary>
+                <div>Ag⁺(aq) + Cl⁻(aq) → AgCl(s)</div>
+              </details>
+            </li>
+            <!-- Add more challenging review problems as you wish -->
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // Collapsible sections
+    const coll = document.querySelectorAll(".collapsible");
+    coll.forEach(btn => {
+      btn.addEventListener("click", function () {
+        this.classList.toggle("active");
+        let content = this.nextElementSibling;
+        if (content.style.maxHeight) content.style.maxHeight = null;
+        else content.style.maxHeight = content.scrollHeight + "px";
+      });
+    });
+
+    // Simple search/filter function for quick lookup
+    document.getElementById('searchInput').addEventListener('input', function () {
+      const searchVal = this.value.toLowerCase();
+      document.querySelectorAll('.chapter').forEach(chap => {
+        if (chap.innerText.toLowerCase().includes(searchVal)) {
+          chap.style.display = "";
+        } else {
+          chap.style.display = "none";
+        }
+      });
+    });
+  </script>
+</body>
+</html>
